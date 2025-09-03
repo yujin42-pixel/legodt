@@ -15,11 +15,12 @@ body {
     font-family: "Outfit", 'Suit', sans-serif;
     font-size: 1.6rem;
     color: var(--font-base-color);
+    background: #f3f3f3;
 }
 
 .wide-inner {
     margin: 0 2.5%;
-    background-color: rgba(255, 0, 0, 0.2);
+    /* background-color: rgba(255, 0, 0, 0.2); */
     position: relative;
 }
 
@@ -27,7 +28,7 @@ body {
     max-width: 1680px;
     padding: 0 2.5%;
     margin: 0 auto;
-    background-color: rgba(0, 0, 255, 0.2);
+    /* background-color: rgba(0, 0, 255, 0.2); */
 }
 
 header {
@@ -36,7 +37,7 @@ header {
     /* fixed는 크기가 줄기에 크기값 필수 */
     position: fixed;
     width: 100%;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .logo {
@@ -66,7 +67,7 @@ header {
     gap: 2.4rem;
 
     >li {
-        background-color: green;
+        /* background-color: green; */
         position: relative;
 
         >a {
@@ -110,7 +111,7 @@ header {
 
 .depth1 {
     /* display: none; */
-    background-color: steelblue;
+    /* background-color: steelblue; */
     /* border: 1px solid black; */
     position: absolute;
     left: 50%;
@@ -138,7 +139,7 @@ header {
 
 .header-right>ul>li {
     position: relative;
-    background-color: steelblue;
+    /* background-color: steelblue; */
     line-height: 70px;
 }
 
@@ -329,7 +330,7 @@ header {
 }
 
 .make-your-wrap {
-    background: #9a9a9a;
+    /* background: #9a9a9a; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -338,6 +339,7 @@ header {
 }
 
 .make-your-wrap .make-your {
+    position: relative;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8422aa+0,5523dd+40,207cca+56,7db9e8+100 */
     background: linear-gradient(to bottom, #8422aa 0%, #5523dd 40%, #207cca 56%, #7db9e8 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
